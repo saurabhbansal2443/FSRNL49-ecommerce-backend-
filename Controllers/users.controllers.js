@@ -3,7 +3,7 @@ import User from "../Models/users.models.js";
 let cookieOption = {
   httpOnly: true,
   secure: true,
-  sameSite: "none",
+  sameSite: "None",
 };
 
 let signup = async (req, res) => {
