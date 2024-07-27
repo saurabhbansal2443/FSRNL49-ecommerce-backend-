@@ -16,7 +16,7 @@ server.use(express.urlencoded({ extended: true })); // this will parse the url d
 server.use(cookieParser()); // to read the cookies data / parse
 server.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://geekscart.netlify.app",
     credentials: true,
   })
 );
